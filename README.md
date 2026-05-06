@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Dhruv Mehta</h1>
+<h1 align="center">Hi 👋, I'm Dhruv</h1>
 <p align="center">
   <em>1st Year B.Tech Student at Newton School of Technology, Bangalore 🇮🇳</em>  
   <br>
