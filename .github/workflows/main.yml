@@ -1,0 +1,41 @@
+name: Generate Minesweeper
+on:
+  # Run automatically once a day
+  schedule:
+    - cron: "0 0 * * *" 
+  # Allow manual runs from the Actions tab
+  workflow_dispatch:
+jobs:
+  minesweeper:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Generate Minesweeper SVG
+        uses: lowlighter/metrics@latest
+        with:
+          # Your GitHub token (provided automatically by GitHub)
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+          # Core settings
+          user: ${{ github.repository_owner }}
+          template: classic
+          base: "" # We only want the plugin, no default metrics
+          
+          # Minesweeper Plugin settings
+          plugin_minesweeper: yes
+          plugin_minesweeper_best: yes  # Highlight best day
+          
+          # Output settings
+          filename: minesweeper.svg # This must match Step 2
+          config_timezone: ${{ github.repository_owner_timezone }} # Set to your time
+          
+      # This step saves the generated image back to your repository
+      - name: Commit and Push output
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add minesweeper.svg
+          git commit -m "Update Minesweeper contribution graph" || exit 0
+          git push
