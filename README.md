@@ -19,6 +19,9 @@ I love building small projects, practicing DSA, and contributing to open-source.
 - 🐍 **Python programming**  
 - 📦 **Tooling: Git & GitHub workflows**
 
+---
+
+## My Contributions as a Mineweeper Game 💥
 <picture>
   <!-- If user has 'dark' preferred, show the dark SVG -->
   <source media="(prefers-color-scheme: dark)" srcset="./dist/minesweeper-contribution-graph-dark.svg">
