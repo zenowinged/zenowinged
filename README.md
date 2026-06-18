@@ -21,4 +21,4 @@ I love building small projects, practicing DSA, and contributing to open-source.
 - 🐍 **Python programming**  
 - 📦 **Tooling: Git & GitHub workflows**
 
-<img src="./minesweeper-contribution-graph.svg" alt="Minesweeper Contribution Graph" />
+<img src="./dist/minesweeper-contribution-graph.svg" alt="Minesweeper Contribution Graph" />
