@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋🏻, I'm Dhruv</h1>
 <p align="center">
-  <em>1st Year B.Tech Student at Newton School of Technology, Bangalore 🇮🇳</em>
+  <em>2nd Year B.Tech Student at Newton School of Technology, Bangalore 🇮🇳</em>
 </p>
 
 ---
