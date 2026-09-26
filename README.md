@@ -12,12 +12,12 @@ I love building small projects, practicing DSA, and contributing to open-source.
 
 ---
 
-## 🧠 What I’m Learning
+## What I’m Learning
 
-- 📌 **Data Structures & Algorithms**  
-- 🌐 **Web Development (HTML/CSS/JS/REACT)**  
-- 🐍 **Python programming**  
-- 📦 **Tooling: Git & GitHub workflows**
+- **Data Structures & Algorithms**  
+- **Web Development (HTML/CSS/JS/REACT)**  
+- **Python programming**  
+- **Tooling: Git & GitHub workflows**
 
 ---
 
