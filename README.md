@@ -15,7 +15,7 @@ I love building small projects, practicing DSA, and contributing to open-source.
 ## What I’m Learning
 
 - **Data Structures & Algorithms**  
-- **Web Development (HTML/CSS/JS/REACT)**  
+- **Web Development (REACT/NODE JS)**  
 - **Python programming**  
 - **Tooling: Git & GitHub workflows**
 
